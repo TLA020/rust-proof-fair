@@ -1,0 +1,16 @@
+[package]
+name = "proof-fair"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tobias Lie-Atjam"]
+description = "A provably fair random number generator (RNG) using HMAC-SHA512 hash with a server seed, a client seed, and a nonce."
+license = "MIT"
+
+
+[dependencies]
+hex = "0.4.3"
+hmac = "0.12.1"
+sha2 = "0.10.6"
+crypto-common = "0.1.6"
+hex-literal = "0.4.1"
+rand = "0.8"
